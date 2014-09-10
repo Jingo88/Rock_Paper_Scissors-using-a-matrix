@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+<head>
+	<link href="css/rps_matrix.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Train Yourself to Save the Planet!</h1>
+	<div class='logo'>
+		<img class='capt' src="img/captain_planet.jpg">
+	</div>
+
+	<div class="game">
+	<div class="userelements gameimage">
+		<img src="img/fire.jpg" id='F
+		' class="imgfire pictures">
+		<img src="img/water.jpg" id='W
+		' class="imgwater pictures">
+		<img src="img/earth.jpg" id='E
+		' class="imgearth pictures">
+	</div>
+	<div class="versus gameimage">
+		<img src="img/versus.png" class="fight pictures">
+	</div>
+	<div class="compelements gameimage">
+		<img src="img/fire.jpg" id='1' class="imgfire pictures">
+		<img src="img/water.jpg" id='2' class="imgwater pictures">
+		<img src="img/earth.jpg" id='3' class="imgearth pictures">
+	</div>
+	</div>
+
+	<h3 class='playerchoice'>Choose your element!</h3>
+	<div class="buttons">
+		<button class="userElement" id="fire">Fire</button>
+		<button class="userElement" id="water">Water</button>
+		<button class="userElement" id="earth">Earth</button>
+	<!-- 	<button id="clear">Clear</button> -->
+	</div>
+	<div class='scoretracker'>
+		<span class='scoreboard'>
+			Wins:
+		</span>
+		<span class='score' id='win'>
+			0
+		</span>
+		
+
+		<span class='scoreboard'>
+			Losses:
+		</span>
+		<span class='score' id='lose'> 0
+		</span>
+		
+
+		<span class='scoreboard'>
+			Draws:
+		</span>
+		<span class='score' id='draw'> 0
+		</span>
+		<br>
+
+		<button id='scorereset'>Reset</button>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/rps_matrix.js"></script>
+</body>
+</html>

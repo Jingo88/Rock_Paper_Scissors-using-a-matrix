@@ -1,0 +1,99 @@
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 0;
+}
+
+.logo {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.capt {
+	height: 300px;
+}
+
+.playerchoice {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+.pictures {
+	display:none;
+}
+
+button {
+	border-radius: 15px;
+	background: white;
+	height: 40px;
+	width: 80px;
+	font-size: 22px;
+	color: black;
+	border: 2px solid black; 
+	margin-left: 15px;
+	margin-right: 15px;	
+}
+
+button:hover{
+	border-radius: 15px;
+	background: black;
+	color: white;
+	border: 2px solid black; 
+}
+
+#fire:hover {
+	background: red;
+}
+
+#water:hover {
+	background: blue;
+}
+
+#earth:hover {
+	background: green;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.game {
+	width: 900px;
+	height: 300px;
+	border: 10px solid black;
+	overflow: inherit;
+	margin: 0 auto;
+}
+
+.gameimage {
+	float: left;
+	width: 300px;
+}
+
+#versus {
+	left: 40%;
+}
+
+
+/*Score Tracker CSS*/
+.scoretracker {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.scoreboard {
+	margin-right: 40px;
+	margin-left: 40px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.score {
+	position: relative;
+	height: 30px;
+	width: 20px;
+	font-size: 30px;
+	font-weight: 600;
+}
